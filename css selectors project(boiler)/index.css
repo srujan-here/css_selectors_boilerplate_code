@@ -34,20 +34,6 @@ ul {
   /* Last row styles
   ------------------------------------------------ */
   /* styling the grid last boxes */
-  .grid-3 li:nth-child(3n + 1):nth-last-child(-n + 3),
-  .grid-3 li:nth-child(3n + 1):nth-last-child(-n + 3) ~ li {
-    background: #cfa;
-  }
-  
-  .grid-4 li:nth-child(4n + 1):nth-last-child(-n + 4),
-  .grid-4 li:nth-child(4n + 1):nth-last-child(-n + 4) ~ li {
-    background: #fac;
-  }
-  
-  .grid-5 li:nth-child(5n + 1):nth-last-child(-n + 5),
-  .grid-5 li:nth-child(5n + 1):nth-last-child(-n + 5) ~ li {
-    background: #acf;
-  }
   
   /* Demo page styles
   ------------------------------------------------ */
